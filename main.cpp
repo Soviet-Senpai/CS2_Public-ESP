@@ -80,7 +80,7 @@ std::string fetchValueFromJSON(const std::wstring& url, const std::string& key) 
     }
     return "";
 }
-
+// Gets offsets for you from ax2 dumper shitty auto update
 void fetchOffsets() {
     const std::wstring urlOffsets = L"https://github.com/a2x/cs2-dumper/raw/main/generated/offsets.json";
     const std::wstring urlClientDLL = L"https://github.com/a2x/cs2-dumper/raw/main/generated/client.dll.json";
