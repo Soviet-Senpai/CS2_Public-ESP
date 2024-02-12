@@ -1,0 +1,1 @@
+This is an open source Glow CS2 ESP project for educational purposes only.
